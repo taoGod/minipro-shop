@@ -1,0 +1,15 @@
+<!--pages/cart/components/w-toolbar/w-toolbar.wxml-->
+<view class='bottom-bar'>
+  <view class='check-box'>
+    <w-check-icon
+      icon="icon"
+      checked="{{ selected }}"
+      bind:change="checkIconChange"
+    />
+    <view>全选</view>
+  </view>
+  <view class='counter'>
+    总计: ¥{{price}}
+  </view>
+  <view class='payment'>去计算({{counter}})</view>
+</view>

@@ -1,0 +1,10 @@
+<!--pages/profile/profile.wxml-->
+<view class='profile'>
+  <w-header
+    avatar="{{ userInfo.avatarUrl }}"
+    username="{{ userInfo.nickName }}"
+  />
+  <w-info/>
+  <w-collection rows="{{ orderList }}"></w-collection>
+  <w-collection rows="{{ serviceList }}"></w-collection>
+</view>

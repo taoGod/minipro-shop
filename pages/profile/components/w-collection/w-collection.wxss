@@ -1,0 +1,28 @@
+/* pages/profile/components/w-collection/w-collection.wxss */
+.collection {
+  border-top: 36rpx solid #f8f8f8;
+}
+
+.cell {
+  height: 100rpx;
+  line-height: 100rpx;
+  background: #fff;
+  font-size: 32rpx;
+  margin-left: 30rpx;
+  border-bottom: 1px solid #f8f8f8;
+}
+
+.cell:last-child {
+  border-bottom: none;
+}
+
+.cell image {
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: middle;
+}
+
+.cell text {
+  vertical-align: middle;
+  margin-left: 16rpx;
+}

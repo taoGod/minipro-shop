@@ -1,0 +1,14 @@
+/* components/w-goods-collection/w-goods-collection.wxss */
+.goods-collection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 8rpx;
+}
+.goods-collection > .goods {
+  position: relative;
+}
+.goods-collection > .goods {
+  width: 48%;
+  margin-top: 20rpx;
+}

@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "w-banner": "/components/w-banner/w-banner",
+    "w-tab-control": "/components/w-tab-control/w-tab-control",
+    "w-recommend": "./components/w-recommend/w-recommend",
+    "w-feature": "./components/w-feature/w-feature",
+    "w-goods-collection": "/components/w-goods-collection/w-goods-collection",
+    "w-back-top": "/components/w-back-top/w-back-top"
+  },
+  "enablePullDownRefresh": true
+}

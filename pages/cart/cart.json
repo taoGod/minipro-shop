@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "w-goods": "./components/w-goods/w-goods",
+    "w-toolbar": "./components/w-toolbar/w-toolbar"
+  },
+  "navigationBarTitleText": "购物车"
+}

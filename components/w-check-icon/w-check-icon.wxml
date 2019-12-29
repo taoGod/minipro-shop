@@ -1,0 +1,9 @@
+<!--components/w-check-icon/w-check-icon.wxml-->
+<icon
+  class="check-icon icon"
+  type="success"
+  size="15"
+  style="border-color: {{ checked ? '#ff5777' : '#aaa' }};"
+  color="{{ checked ? '#ff5777' : '#fff' }}"
+  bindtap="changeStatus"
+></icon>

@@ -1,0 +1,14 @@
+<!--pages/cart/cart.wxml-->
+<view class='cart'>
+  <scroll-view class='goodslist' scroll-y>
+    <block wx:for="{{ goodslist }}" wx:for-item="goods" wx:key="index">
+      <w-goods goods="{{ goods }}"/>
+    </block>
+  </scroll-view>
+  <w-toolbar
+    selected="{{ isSelectAll }}" 
+    price="{{ totalPrice }}"
+    counter="{{ totalCounter }}"
+    bindtap="onSelectAll"
+  ></w-toolbar>
+</view>

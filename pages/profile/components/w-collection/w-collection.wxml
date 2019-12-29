@@ -1,0 +1,9 @@
+<!--pages/profile/components/w-collection/w-collection.wxml-->
+<view class='collection'>
+  <block wx:for="{{ rows }}" wx:key="index">
+    <view class='cell'>
+      <image src="/assets/images/profile/{{ item.icon }}"/>
+      <text>{{ item.label }}</text>
+    </view>
+  </block>
+</view>

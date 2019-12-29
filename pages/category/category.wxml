@@ -1,0 +1,10 @@
+<!--pages/category/category.wxml-->
+<view class='category'>
+  <w-menu categories="{{ categories }}" bind:change="categoryChange"/>
+  <w-content
+    goodslist="{{ categories[currentIndex].goodslist }}"
+    bind:contentScrollToLower="contentScrollToLower"
+    data-index="{{ currentIndex }}"
+    wx:if="{{ categories.length > 0 }}"
+  />
+</view>

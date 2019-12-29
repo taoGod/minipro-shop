@@ -1,0 +1,5 @@
+/* pages/summary/summary.wxss */
+.echart_panel {
+  width: 100%;
+  height: 100vh;
+}

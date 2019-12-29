@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "w-goods-collection": "/components/w-goods-collection/w-goods-collection",
+    "w-back-top": "/components/w-back-top/w-back-top"
+  }
+}

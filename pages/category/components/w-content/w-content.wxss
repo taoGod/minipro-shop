@@ -1,0 +1,7 @@
+/* pages/category/components/w-content/w-content.wxss */
+.content {
+  height: 100%;
+}
+.goodslist {
+  width: 100%;
+}

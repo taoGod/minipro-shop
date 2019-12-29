@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "w-header": "./components/w-header/w-header",
+    "w-info": "./components/w-info/w-info",
+    "w-collection": "./components/w-collection/w-collection"
+  },
+  "navigationBarTitleText": "我的信息"
+}

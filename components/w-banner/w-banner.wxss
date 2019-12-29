@@ -1,0 +1,4 @@
+/* components/w-banner/w-banner.wxss */
+.banner-image {
+  width: 100%;
+}

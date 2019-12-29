@@ -1,0 +1,15 @@
+<!--pages/category/components/w-content/w-content.wxml-->
+<scroll-view
+  class="content"
+  scroll-y
+  scroll-with-animation="{{ true }}"
+  bindscroll="viewDidScroll"
+  scroll-top="{{ scrollTop }}"
+  bindscrolltolower="scrollToLower"
+>
+  <!-- 数据展示 -->
+  <view class='goodslist'>
+    <w-goods-collection goodslist="{{ goodslist }}"/>
+  </view>
+  <w-back-top bind:backToTop="backToTop" wx:if="{{ backTopDisplay }}"/>
+</scroll-view>

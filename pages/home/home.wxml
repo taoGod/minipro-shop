@@ -1,0 +1,29 @@
+<!--pages/home/home.wxml-->
+<view class="home">
+  <view hidden="{{ !tempTabControlDisplay }}">
+    <w-tab-control
+      class="tab-control-temp"
+      tabs="{{ tabs }}"
+      bind:change="tabChange"
+    ></w-tab-control>
+  </view>
+  <scroll-view
+    class="content"
+    scroll-y
+    scroll-with-animation="{{ true }}"
+    scroll-top="{{ scrollTop }}"
+    bindscroll="viewDidScroll"
+    bindscrolltolower="scrollToLower"
+  >
+    <w-banner banners="{{ banners }}"/>
+    <w-recommend recommends="{{ recommends }}" bind:imageLoad="recommendImageLoad"/>
+    <w-feature/>
+    <w-tab-control
+      class="tab-control"
+      tabs="{{ tabs }}"
+      bind:change="tabChange"
+    ></w-tab-control>
+    <w-goods-collection goodslist="{{ goodsTypes[currentType].list }}"/>
+    <w-back-top bind:backToTop="backToTop" wx:if="{{ backTopDisplay }}"/>
+  </scroll-view>
+</view>

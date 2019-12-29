@@ -1,0 +1,13 @@
+<!--pages/category/components/w-menu/w-menu.wxml-->
+<scroll-view class='menu' scroll-y>
+  <block wx:for="{{ categories }}" wx:for-item="category" wx:key="index">
+    <view
+      class='category {{ index == currentIndex ? "active": "" }}' 
+      bindtap='changeCategory' 
+      data-index="{{ index }}"
+      data-category="{{ category }}"
+    >
+      {{ category.label }}
+    </view>
+  </block>
+</scroll-view>

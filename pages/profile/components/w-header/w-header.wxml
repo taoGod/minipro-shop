@@ -1,0 +1,17 @@
+<!--pages/profile/components/w-header/w-header.wxml-->
+<view class="header">
+  <view class="avatar">
+    <image src="{{ avatar }}"/>
+  </view>
+  <view class="login-info">
+    <!-- <view class="login">登录/注册</view> -->
+    <view class="login">{{ username }}</view>
+    <view class="phone">
+      <image src="/assets/images/profile/phone.png"/>
+      暂无绑定手机号
+    </view>
+  </view>
+  <view class="arrow" bindtap="goSummary">
+    <image src="/assets/images/common/arrow-right.png"/>
+  </view>
+</view>
